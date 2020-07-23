@@ -1,5 +1,5 @@
 let map, centerMarker;
-const DEFAULT_ZOOM = 8;
+const DEFAULT_ZOOM = 7;
 const DEFAULT_CENTER = {
     lat: 1.2921,
     lng: 36.8219
@@ -68,6 +68,9 @@ function getDeviceLocation() {
 
 }
 
+/**
+ * Add maps with clusters to a google map
+ */
 function addMarkersWithClusters() {
 
     //Setting the clusters
